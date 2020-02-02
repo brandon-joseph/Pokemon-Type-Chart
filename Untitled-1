@@ -1,0 +1,99 @@
+  var color = d3.scale
+        .ordinal()
+        .domain([
+          "Normal",
+          "Fighting",
+          "Flying",
+          "Poison",
+          "Ground",
+          "Rock",
+          "Bug",
+          "Ghost",
+          "Steel",
+          "Fire",
+          "Water",
+          "Grass",
+          "Electric",
+          "Psychic",
+          "Ice",
+          "Dragon",
+          "Dark",
+          "Fairy",
+          "normal|dark",
+        "normal|dragon",
+        "normal|eletric",
+        "normal|fairy",
+        "normal|fighting",
+        "normal|fire",
+        "normal|flying",
+        "normal|grass",
+        "normal|ground",
+        "normal",
+        "normal|psychic",
+        "normal|water"
+        ])
+        .range([
+          "#6c6d4e",
+          "#c02f28",
+          "#a890f0",
+          "#a040a0",
+          "#dfc068",
+          "#b8a038",
+          "#a8b81e",
+          "#705898",
+          "#b8b8d0",
+          "#f08030",
+          "#6890f0",
+          "#78c850",
+          "#f8d02f",
+          "#f75887",
+          "#98d8d8",
+          "#7038f8",
+          "#705847",
+          "#ee99ac",
+          "#705847",
+          "#f8d02f",
+          "#ee99ac",
+          "#c02f28",
+          "#f08030",
+          "#a890f0",
+          "#78c850",
+          "#b8a038",
+          "#6c6d4e",
+          "#f75887",
+          "#6890f0",
+        ]);
+
+
+                   // var thisDonut = charts.select(".type" + j);
+            // if (0 === thisDonut.selectAll(".clicked")[0].length) {
+            //   thisDonut.select("circle").on("click")();
+            // }
+            //var thisPath = d3.select(this);
+            //  var clicked = thisPath.classed("clicked");
+            //pathAnim(thisPath, ~~!clicked);
+
+            // Assume no new categ of data enter
+
+
+
+
+            ["fighting|normal",
+"fighting|normal",
+"fighting",
+"fighting|flying",
+"fighting|poison",
+"fighting|ground",
+"fighting|rock",
+"fighting|bug",
+"fighting|ghost",
+"fighting|steel",
+"fighting|fire",
+"fighting|water",
+"fighting|grass",
+"fighting|electric",
+"fighting|psychic",
+"fighting|ice",
+"fighting|dragon",
+"fighting|dark",
+fighting|fairy]
